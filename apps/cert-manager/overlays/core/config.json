@@ -1,0 +1,11 @@
+{
+  "appName": "cert-manager",
+  "userGivenName": "cert-manager",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/cert-manager/overlays/core",
+  "srcRepoURL": "https://github.com/Dingoldine/argocd-bootstrap.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}
