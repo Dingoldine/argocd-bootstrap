@@ -4,8 +4,9 @@ metadata:
   name: argocd-server
 name: argocd-server
 spec:
-- name: http
-  port: 30080
-- name: https
-  port: 30443
+  ports:
+  - name: http
+    port: 30080
+  - name: https
+    port: 30443
   type: LoadBalancer
