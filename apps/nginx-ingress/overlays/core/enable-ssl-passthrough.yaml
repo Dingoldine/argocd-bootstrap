@@ -1,8 +1,12 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ingress-nginx-controller
-  spec:
+  name: "ingress-nginx-controller"
+spec:
+  template:
+    spec:
       containers:
-      - args:
-        - "--enable-ssl-passthrough"
+        - name: controller 
+          imagePullPolicy: never
+          #args:
+          #  - "--enable-ssl-passthrough"
