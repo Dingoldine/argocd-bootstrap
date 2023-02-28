@@ -5,8 +5,12 @@ metadata:
 name: argocd-server
 spec:
   ports:
+  - port: 80
+    $patch: delete
   - name: http
     port: 30080
+  - port: 443
+    $patch: delete
   - name: https
     port: 30443
   type: LoadBalancer
