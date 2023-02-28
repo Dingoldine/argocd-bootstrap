@@ -3,5 +3,5 @@ kind: Kustomization
 namespace: kube-system
 resources:
 - ../../base
-patchesStrategicMerge:
-- ./enable-ssl-passthrough.yaml
+#patchesStrategicMerge:
+#- ./enable-ssl-passthrough.yaml
