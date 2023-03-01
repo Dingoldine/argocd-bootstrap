@@ -1,6 +1,6 @@
 kind: Kustomization
 resources:
-  - https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.6.4/deploy/static/provider/cloud/deploy.yaml
+  - ../../base
 patches:
 - patch: |-
     - op: add
