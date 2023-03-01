@@ -8,8 +8,8 @@ spec:
   # should store the signed certificate.
   secretName: philiprumman.com-tls
   dnsNames:
-    - philiprumman.com
-    - *.philiprumman.com
+    - "philiprumman.com"
+    - "*.philiprumman.com"
   # Duration of the certificate.
   duration: 168h
   # Renew a day before the certificate expiration.
