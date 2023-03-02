@@ -10,3 +10,5 @@ spec:
   - name: https
     port: 30443
   type: LoadBalancer
+  selector:
+     app.kubernetes.io/name: argocd-server
