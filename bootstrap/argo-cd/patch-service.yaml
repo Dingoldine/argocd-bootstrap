@@ -6,10 +6,12 @@ spec:
   $patch: replace
   ports:
   - name: http
-    port: 30080
+    nodePort: 30080
+    port: 8083
     targetPort: 8083
   - name: https
-    port: 30443
+    nodePort: 30443
+    port: 8083
     targetPort: 8083
   type: LoadBalancer
   selector:
