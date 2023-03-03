@@ -7,11 +7,9 @@ spec:
   ports:
   - name: http
     nodePort: 30080
-    port: 8083
     targetPort: 8083
   - name: https
     nodePort: 30443
-    port: 8083
     targetPort: 8083
   type: LoadBalancer
   selector:
