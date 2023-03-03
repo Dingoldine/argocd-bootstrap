@@ -14,5 +14,5 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: argocd-server
+            name: kubernetes-dashboard
             port: 443
