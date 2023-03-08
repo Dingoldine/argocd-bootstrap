@@ -12,3 +12,4 @@ resources:
 - sealed-secret.yaml
 - origin-issuer.yaml
 - certificate.yaml
+- ca-issuer.yaml
