@@ -4,6 +4,12 @@ metadata:
   name: philiprumman.com
   namespace: origin-ca-issuer
 spec:
+  secretTemplate:
+    annotations:
+      my-secret-annotation-1: "foo"
+      my-secret-annotation-2: "bar"
+    labels:
+      my-secret-label: foo
   # The secret name where cert-manager
   # should store the signed certificate.
   secretName: philiprumman.com-tls
