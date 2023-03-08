@@ -1,0 +1,11 @@
+{
+  "appName": "kubernetes-reflector",
+  "userGivenName": "kubernetes-reflector",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/kubernetes-reflector/overlays/core",
+  "srcRepoURL": "https://github.com/Dingoldine/argocd-bootstrap.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}
