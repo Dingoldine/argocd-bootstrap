@@ -4,7 +4,6 @@ metadata:
   name: philiprumman.com
   namespace: origin-ca-issuer
 spec:
-  isCA: true
   secretTemplate:
     annotations:
       my-secret-annotation-1: "foo"
