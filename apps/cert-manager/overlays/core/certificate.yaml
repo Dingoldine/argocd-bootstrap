@@ -19,9 +19,9 @@ spec:
     - "philiprumman.com"
     - "*.philiprumman.com"
   # Duration of the certificate.
-  duration: 168h
+  duration: 168h0m0s
   # Renew a day before the certificate expiration.
-  renewBefore: 24h
+  renewBefore: 24h0m0s
   # Reference the Origin CA Issuer you created above,
   # which must be in the same namespace.
   issuerRef:
