@@ -1,0 +1,6 @@
+kind: ClusterIssuer
+metadata:
+  name: ca-issuer
+spec:
+  ca:
+    secretName: philiprumman.com-tls
