@@ -8,6 +8,8 @@ spec:
     annotations:
       my-secret-annotation-1: "foo"
       my-secret-annotation-2: "bar"
+      reflector.v1.k8s.emberstack.com/reflection-allowed: "true"
+      reflector.v1.k8s.emberstack.com/reflection-allowed-namespaces: "argocd,ingress-nginx"
     labels:
       my-secret-label: foo
   # The secret name where cert-manager
