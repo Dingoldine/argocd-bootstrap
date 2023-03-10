@@ -4,5 +4,5 @@ metadata:
   name: kubernetes-dashboard-certs
   namespace: kubernetes-dashboard
   annotations:
-    reflector.v1.k8s.emberstack.com/reflects: "cert-manager/philiprumman.com-tls"
+    reflector.v1.k8s.emberstack.com/reflects: "origin-ca-issuer/philiprumman.com-tls"
 
