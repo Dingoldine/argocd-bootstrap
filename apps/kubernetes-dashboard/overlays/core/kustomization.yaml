@@ -4,5 +4,4 @@ resources:
 - ../../base
 - ingress.yaml
 - service-account.yaml
-patchesStrategicMerge:
-  - kubernetes-dashboard-tls.yaml
+- kubernetes-dashboard-tls.yaml
