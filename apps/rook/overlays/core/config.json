@@ -1,0 +1,12 @@
+
+{
+  "appName": "Rook",
+  "userGivenName": "rook",
+  "destNamespace": "rook-ceph",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/rook/overlays/core",
+  "srcRepoURL": "https://github.com/Dingoldine/argocd-bootstrap.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}
