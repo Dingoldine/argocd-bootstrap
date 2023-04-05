@@ -1,0 +1,12 @@
+{
+    "appName": "origin-ca-issuer",
+    "userGivenName": "origin-ca-issuer",
+    "destNamespace": "origin-ca-issuer",
+    "destServer": "https://kubernetes.default.svc",
+    "srcPath": "apps/origin-ca-issuer/overlays/core",
+    "srcRepoURL": "https://github.com/Dingoldine/argocd-bootstrap.git",
+    "srcTargetRevision": "",
+    "labels": null,
+    "annotations": null
+  }
+  

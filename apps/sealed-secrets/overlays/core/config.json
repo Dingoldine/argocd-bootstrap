@@ -1,7 +1,7 @@
 {
   "appName": "sealed-secrets",
   "userGivenName": "sealed-secrets",
-  "destNamespace": "default",
+  "destNamespace": "kube-system",
   "destServer": "https://kubernetes.default.svc",
   "srcPath": "apps/sealed-secrets/overlays/core",
   "srcRepoURL": "https://github.com/Dingoldine/argocd-bootstrap.git",
