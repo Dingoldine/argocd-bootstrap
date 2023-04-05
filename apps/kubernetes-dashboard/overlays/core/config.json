@@ -1,7 +1,7 @@
 {
   "appName": "kubernetes-dashboard",
   "userGivenName": "kubernetes-dashboard",
-  "destNamespace": "default",
+  "destNamespace": "kubernetes-dashboard",
   "destServer": "https://kubernetes.default.svc",
   "srcPath": "apps/kubernetes-dashboard/overlays/core",
   "srcRepoURL": "https://github.com/Dingoldine/argocd-bootstrap.git",
