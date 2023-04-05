@@ -1,5 +1,12 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
+patches:
+  - op: remove
+    path: /spec/template/spec/containers/0/args/-
+    value: --auto-generate-certificates
+target:
+    kind: Deployment
+    name: kubernetes-dashboard
 resources:
 - ../../base
 - ingress.yaml
