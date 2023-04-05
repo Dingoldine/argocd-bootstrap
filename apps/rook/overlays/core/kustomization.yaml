@@ -3,3 +3,4 @@ kind: Kustomization
 resources:
 - ../../base
 - https://raw.githubusercontent.com/rook/rook/v1.11.2/deploy/examples/cluster-test.yaml
+- https://raw.githubusercontent.com/rook/rook/release-1.11/deploy/examples/csi/rbd/storageclass-test.yaml
