@@ -9,16 +9,14 @@ patches:
 - patch: |-
     - op: remove
       path: /spec/template/spec/containers/0/args/0
-  target:
-    kind: Deployment
-    name: kubernetes-dashboard
-# add custom certificate paths
-- patch: |-
     - op: add
       path: /spec/template/spec/containers/0/args/0
       value: --tls-cert-file=/certs/tls.crt
     - op: add
       path: /spec/template/spec/containers/0/args/1
       value: --tls-key-file=/certs/tls.key
+  target:
+    kind: Deployment
+    name: kubernetes-dashboard
 patchesStrategicMerge:
 - kubernetes-dashboard-certs.yaml
