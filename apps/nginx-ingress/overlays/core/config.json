@@ -1,9 +1,9 @@
 {
-  "appName": "nginx-ingress",
-  "userGivenName": "nginx-ingress",
-  "destNamespace": "default",
+  "appName": "ingress-nginx",
+  "userGivenName": "ingress-nginx",
+  "destNamespace": "ingress-nginx",
   "destServer": "https://kubernetes.default.svc",
-  "srcPath": "apps/nginx-ingress/overlays/core",
+  "srcPath": "apps/ingress-nginx/overlays/core",
   "srcRepoURL": "https://github.com/Dingoldine/argocd-bootstrap.git",
   "srcTargetRevision": "",
   "labels": null,
