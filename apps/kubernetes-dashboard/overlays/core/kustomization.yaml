@@ -7,7 +7,7 @@ resources:
 patches:
 - patch: |-
     - op: remove
-      path: /spec/template/spec/containers/0/args/-
+      path: /spec/template/spec/containers/0/args/
       value: --auto-generate-certificates 
   target:
     kind: Deployment
