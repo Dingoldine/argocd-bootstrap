@@ -6,9 +6,9 @@ resources:
 - service-account.yaml
 patches:
 - patch: |-
-  - op: remove
-    path: /spec/template/spec/containers/0/args/-
-    value: --auto-generate-certificates   
+    - op: remove
+      path: /spec/template/spec/containers/0/args/-
+      value: --auto-generate-certificates 
   target:
     kind: Deployment
     name: kubernetes-dashboard
