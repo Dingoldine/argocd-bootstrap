@@ -5,16 +5,16 @@ resources:
 - ingress.yaml
 - service-account.yaml
 patches:
-# remove --autogenerate-certificate option
+# remove --autogenerate-certificate option & add custom certificate paths
 - patch: |-
     - op: remove
       path: /spec/template/spec/containers/0/args/0
     - op: add
       path: /spec/template/spec/containers/0/args/0
-      value: --tls-cert-file=/certs/tls.crt
+      value: --tls-cert-file=tls.crt
     - op: add
       path: /spec/template/spec/containers/0/args/1
-      value: --tls-key-file=/certs/tls.key
+      value: --tls-key-file=tls.key
   target:
     kind: Deployment
     name: kubernetes-dashboard
