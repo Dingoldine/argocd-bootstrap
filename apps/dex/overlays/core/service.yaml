@@ -3,11 +3,12 @@ kind: Service
 metadata:
   name: dex
   namespace: dex
+$patch: replace
 spec:
   type: ClusterIP
   ports:
   - name: dex
-    nodePort:
-      $patch: delete
-
+    port: 5556
+    protocol: TCP
+    targetPort: 5556
       name: sidecar
