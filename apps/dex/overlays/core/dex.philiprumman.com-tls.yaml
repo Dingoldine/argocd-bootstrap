@@ -5,5 +5,4 @@ metadata:
   namespace: dex
   annotations:
     reflector.v1.k8s.emberstack.com/reflects: "origin-ca-issuer/philiprumman.com-tls"
-spec:
-  type: kubernetes.io/tls
+type: kubernetes.io/tls
