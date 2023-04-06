@@ -10,3 +10,6 @@ patches:
     - op: replace
       path: /spec/template/spec/volumes/1/secret/secretName
       value: dex.philiprumman.com-tls
+  target:
+    kind: Deployment
+    name: dex
