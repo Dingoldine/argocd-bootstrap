@@ -5,7 +5,7 @@ resources:
 patchesStrategicMerge:
 - service.yaml
 patches:
-# remove --autogenerate-certificate option & add custom certificate paths
+# replace default tls certificate name with new secret
 - patch: |-
     - op: replace
       path: /spec/template/spec/volumes/1/secret/secretName
