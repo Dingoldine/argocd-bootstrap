@@ -5,4 +5,9 @@ metadata:
   namespace: dex
 spec:
   type: ClusterIP
+  ports:
+  - name: dex
+    nodePort:
+      $patch: delete
 
+      name: sidecar
