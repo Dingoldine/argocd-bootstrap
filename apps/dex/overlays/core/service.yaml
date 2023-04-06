@@ -11,4 +11,3 @@ spec:
     port: 5556
     protocol: TCP
     targetPort: 5556
-      name: sidecar
