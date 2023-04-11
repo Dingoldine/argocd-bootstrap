@@ -17,7 +17,7 @@ patches:
     name: dex
 - patch: |-
     - op: replace
-      path: /data/config.yaml/connectors/1/config/redirectURI
+      path: /data/config.yaml/connectors/0/config/redirectURI
       value: https://dex.philiprumman.com/callback
   target:
     kind: ConfigMap
