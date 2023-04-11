@@ -15,3 +15,12 @@ patches:
   target:
     kind: Deployment
     name: dex
+- patch: |-
+    - op: replace
+      path: /data/connectors/1/config/redirectURI
+      value: https://dex.philiprumman.com/callback
+  target:
+    kind: ConfigMap
+    name: dex
+
+    
